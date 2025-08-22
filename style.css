@@ -1,0 +1,50 @@
+@charset "UTF=8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    background-image: url('imagens/mesa-escritorio.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+section#telefone{
+    position: absolute;  /*position | top | left | transform e o position do main faz o conteiner do telefone ficar no meio da tela*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    height: 500px;
+    width: 250px;
+    background-image: url('imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+img#telahome{
+    position: absolute;
+    top: 252px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 380px;
+    width: 216px;
+    background-image: url(imagens/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
