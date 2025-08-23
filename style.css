@@ -35,3 +35,27 @@ section#telefone{
     height: 555px;
     width: 275px;
 }
+
+iframe#tela{
+    position: relative;
+    top: 72px;
+    left: 20px;
+    width: 236px;
+    height: 416px;
+}
+
+section#redes-sociais img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.050);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.700);
+    transform: translate(3px, 3px); /* "animação" do botão sair do lugar*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.505);
+    transition: transform 0.5s, border 1s; /*animação de "suavidade"*/
+}
